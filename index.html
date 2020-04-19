@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+
+  <!--- basic page needs
+    ================================================== -->
+  <meta charset="utf-8">
+  <title>Autónomo</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- mobile specific metas
+    ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS
+    ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- script
+    ================================================== -->
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
+
+  <!-- favicons
+    ================================================== -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+  <!-- header
+    ================================================== -->
+  <header class="s-header">
+
+    <nav class="header-nav">
+
+      <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+      <div class="header-nav__content">
+        <h3>Autónomo</h3>
+
+        <ul class="header-nav__list">
+          <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
+          <li><a class="smoothscroll" href="#abstract" title="Abstract">Abstract</a></li>
+          <li><a class="smoothscroll" href="#requirements" title="Requirements">Requirements</a></li>
+          <li><a class="smoothscroll" href="#research" title="Research">Research</a></li>
+          <li><a class="smoothscroll" href="#algorithms" title="Algorithms">Algorithms</a></li>
+          <li><a class="smoothscroll" href="#hci" title="HCI">HCI</a></li>
+          <li><a class="smoothscroll" href="#testing" title="Testing">Testing</a></li>
+          <li><a class="smoothscroll" href="#evaluation" title="Evaluation">Evaluation</a></li>
+          <li><a class="smoothscroll" href="#appendix" title="Appendix">Appendix</a></li>
+        </ul>
+
+        <p>Simulating the experience of riding in a self-driving car by using Virtual Reality and Hand Tracking</p>
+
+      </div> <!-- end header-nav__content -->
+
+    </nav> <!-- end header-nav -->
+
+    <a class="header-menu-toggle" href="#0">
+      <span class="header-menu-icon"></span>
+    </a>
+
+  </header> <!-- end s-header -->
+
+
+  <!-- home
+    ================================================== -->
+  <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
+
+    <div class="shadow-overlay"></div>
+
+    <div class="home-content">
+
+      <div class="row home-content__main">
+        <h1>
+          Autónomo
+        </h1>
+
+        <p>
+          A Virtual Reality Simulation <br>
+          of a Self-Driving Car
+        </p>
+        <p class="home-social-title"><a href="https://www.nttdata.com/global/en/" target="_blank" style="color: #378abd; font-size: 18px;">NTT Data</a></p>
+      </div> <!-- end home-content__main -->
+
+    </div> <!-- end home-content -->
+
+    <ul class="home-sidelinks">
+      <li><a class="smoothscroll" href="#abstract">Abstract<span>Our project in a few lines</span></a></li>
+      <li><a class="smoothscroll" href="#requirements">Requirements<span>Key project requirements and user personas</span></a></li>
+      <li><a class="smoothscroll" href="#research">Research<span>About Autónomo's inspirations and assets</span></a></li>
+      <li><a class="smoothscroll" href="#algorithms">Algorithms<span>Understand the algorithm at the heart of Autónomo</span></a></li>
+      <li><a class="smoothscroll" href="#hci">HCI<span>Autónomo's design process - from sketches to the final release</span></a></li>
+      <li><a class="smoothscroll" href="#testing">Testing, Evaluation, and Appendix <span>What happened after Autónomo was out of production</li>
+    </ul> <!-- end home-sidelinks -->
+
+    <ul class="home-social">
+      <li class="home-social-title">The Team</li>
+      <li><a href="mailto:bhushan.abir@gmail.com">
+          <i class="fas fa-user-tag"></i>
+          <span class="home-social-text">Abir Bhushan</span>
+        </a></li>
+      <li><a href="mailto:xuyou.cheng.18@ucl.ac.uk">
+          <i class="fas fa-user-tag"></i>
+          <span class="home-social-text">Xuyou Cheng</span>
+        </a></li>
+      <li><a href="mailto:yifan-zhang.18@ucl.ac.uk">
+          <i class="fas fa-user-tag"></i>
+          <span class="home-social-text">Yifan Zhang</span>
+        </a></li>
+    </ul> <!-- end home-social -->
+
+    <a href="#abstract" class="home-scroll smoothscroll">
+      <span class="home-scroll__text">Scroll Down</span>
+      <span class="home-scroll__icon"></span>
+    </a> <!-- end home-scroll -->
+
+  </section> <!-- end s-home -->
+
+
+  <!-- abstract
+    ================================================== -->
+  <section id='abstract' class="s-about">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Abstract</h3>
+        <h1 class="display-1">Simulating the experience of riding in a self-driving car by using Virtual Reality and Hand Tracking</h1>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          As self-driving cars (or autonomous vehicles) are reaching a point where they’re as good, or better than human drivers, it is important that people understand how autonomous cars work and how it feels like to ride in one. Autónomo does this
+          by simulating the experience of riding in a self-driving car by using Virtual Reality (VR) and <a href="https://developer.oculus.com/documentation/unity/unity-handtracking/" target="_blank">Hand Tracking</a>. The use of VR and Hand Tracking
+          creates a very real-world experience of riding in a self-driving car and has lower costs compared to test-rides. The application is also created to appeal to a variety of training and learning styles and eliminates any risk and safety
+          concerns. Potential adopters of this technology can include car dealerships that can use this application as a substitute for test-rides, which are more costly and time-consuming and are hence, much less scalable. Similarly, potential
+          buyers of self-driving cars can use Autónomo to experience riding in a self-driving car before buying one.
+        </p>
+        <p class="lead">
+          Our solution uses an <a href="https://www.oculus.com/quest/?locale=en_GB" target="_blank">Oculus Quest</a> headset to simulate a
+          feature-complete experience of a Level 5 autonomous car and our application is written using <a href="https://unity.com/" target="_blank">Unity</a>
+          and <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a>.
+        </p>
+      </div>
+    </div> <!-- end about-desc -->
+
+    <div class="row">
+
+      <div class="about-process process block-1-2 block-tab-full">
+
+        <div class="process__vline-left"></div>
+        <div class="process__vline-right"></div>
+
+        <div class="col-block process__col" data-item="1" data-aos="fade-up">
+          <div class="process__text">
+            <h4>Virtual Reality</h4>
+            <p>
+              Get the complete self-driving experience - move around and look around just like in a real-life setting, interact with elements of a fully autonomous (Level-5) car, customise these elements to your preference,
+              understand how the car will always choose the most optimal route, and much more - all in a Virtual Reality (VR) environment.
+            </p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="2" data-aos="fade-up">
+          <div class="process__text">
+            <h4>The Hand Tracking Experience</h4>
+            <p>
+              Interact with the simulation just like you would interact with a real object - choose your destination with a single touch on a map, use <a href="https://developer.oculus.com/documentation/unity/unity-handtracking/"
+                target="_blank">Gestures</a> to enter/exit the simulation, to control the entertainment system (system has a music library and a simple game), and
+              to choose and customise your car.
+            </p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="3" data-aos="fade-up">
+          <div class="process__text">
+            <h4>A Feature-Complete Simulation</h4>
+            <p>
+              Choose a car you like, customise its exteriors <strong>and</strong> interiors, choose a destination, look around a complete city environment (with roads, bridges, buildings, traffic lights, and more), play music,
+              games, and more on the entertainment system, and most importantly, sit back and relax - the car drives on its own! Autónomo emulates and simulates a feature-complete self-driving experience.
+            </p>
+          </div>
+        </div>
+        <div class="col-block process__col" data-item="4" data-aos="fade-up">
+          <div class="process__text">
+            <h4>A New Car Buying Experience</h4>
+            <p>
+              Autónomo is built to simulate a new car buying experience. Gone are the days when you had to visit multiple dealerships, kick tyres, and drive around the block to buy a car. With Virtual Reality (VR) and Hand Tracking,
+              Autónomo allows users to view information (description, specifications, and performance figures) about the car while also simulating the rider experience all in the comfort of your own space!
+            </p>
+          </div>
+        </div>
+
+      </div> <!-- end process -->
+
+    </div> <!-- end about-stats -->
+    <div class="col-full">
+      <center><iframe src="https://www.youtube.com/embed/WqM7CoGIBWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    </div>
+
+  </section> <!-- end s-about -->
+
+
+  <!-- services
+    ================================================== -->
+  <section id='requirements' class="s-services light-gray">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Requirements</h3>
+      </div>
+    </div> <!-- end section-header -->
+
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <p class="lead">
+          For gathering and refining requirements of the project, we liased with our client, NTT Data, until common ground was found
+          and realistic goals were set for the project. We conducted one in-person meeting and all other meetings were done virtually over <a href="https://www.skype.com/en/" target="_blank">Skype</a>.
+        </p>
+        <h2 class="h1">MoSCoW List of features</h2>
+
+        <h3 class="h4">Must Have</h3>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A user-friendly interface to select a car
+            <ul style="padding-left: 4%;">
+              <li>User-friendly elements include buttons for choosing a color for the car and arrows for navigating car options</li>
+              <li>Users must also be able to view information about a car - it's specifications, description, and performance figures</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A simulation of interacting with elements of the car
+            <ul style="padding-left: 4%;">
+              <li>Track user's hands and give visual feedback (if applicable) when interacting with elements of the car (like the steering wheel and other parts of the car that are visible to the user)</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A feature-complete simulation of riding in a self-driving car
+            <ul style="padding-left: 4%;">
+              <li>Users must be able to see the car moving from a start point to a destination along a specific track</li>
+              <li>The car must have basic elements of a car’s interiors; must have a driver's seat, a front-passenger seat, and a Dashboard/instrument panel with at least a speedometer</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="h4">Should Have</h3>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A user-friendly interface to select a car
+            <ul style="padding-left: 4%;">
+              <li>Should allow users to select a car using Hand Tracking features like <a href="https://developer.oculus.com/documentation/unity/unity-handtracking/" target="_blank">Gestures</a></li>
+              <li>Users should be able to use gestures to switch between cars, view information about the cars, and also select a car</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;An interface for customising the car
+            <ul style="padding-left: 4%;">
+              <li>A menu that lists out all available cars with additional customising options for the car's exteriors (like the colour of the car and additional artistic elements like stickers)</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A feature-complete simulation of riding in a self-driving car
+            <ul style="padding-left: 4%;">
+              <li>Users should be able to interact with the Dashboard/instrument panel (using Hand Tracking) and receive visual feedback</li>
+              <li>Users should be able to look around (must be free to rotate and change the view) just like looking around in a real-life setting</li>
+              <li>The applications should have a feature-complete environment for the simulation similar to that of a city - with buildings, roads, highways, roundabouts, bridges etc.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="h4">Could Have</h3>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;An interface for customising the car
+            <ul style="padding-left: 4%;">
+              <li>Could have an option to customise the interiors of the car like customising the colour of the seats, the information displayed on the Dashboard/Instrument panel (could add fuel level and oil pressure along with a broad array of
+                gauges and controls), along with options for climate control (like regulating the temperature of the car and the fan speed of the air conditioner)</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;Options for customising the route that the car will take
+            <ul style="padding-left: 4%;">
+              <li>Could have a pathfinding algorithm that navigates the car from a starting point to a destination</li>
+              <li>Could have options that allow the user to choose a starting point, a destination, along with options for alternate routes and the estimated time each route will take</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A feature-complete simulation of riding in a self-driving car
+            <ul style="padding-left: 4%;">
+              <li>A navigation system for the car - a virtual map with real-time updates of the car’s position</li>
+              <li>The car could also have additional interior elements that may be found in fully autonomous (Level-5) cars in the future</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;An entertainment system for the car
+            <ul style="padding-left: 4%;">
+              <li>Could have a simple game and a music system</li>
+              <li>The car could also have additional interior elements that may be found in fully autonomous (Level-5) cars in the future</li>
+            </ul>
+          </li>
+        </ul>
+
+        <h3 class="h4">Won't Have</h3>
+
+        <ul style="list-style-type: none;">
+          <li>
+            <i class="icon-cube"></i>&nbsp;&nbsp;A Deep Learning algorithm that trains cars to navigate road courses
+          </li>
+        </ul>
+
+      </div>
+    </div> <!-- end about-desc -->
+    <div class="testimonials-wrap" data-aos="fade-up">
+
+      <div class="row">
+        <div class="col-full testimonials-header">
+          <h2 class="h1">Our Users</h2>
+        </div>
+      </div>
+
+      <div class="row testimonials">
+
+        <div class="col-full testimonials__slider">
+
+          <div class="testimonials__slide">
+            <img src="images/avatars/user-01.png" alt="Author image" class="testimonials__avatar">
+            <p>I have always been fascinated by idea of self-driving cars and want to experience the feeling of riding in one before buying one for myself.</p>
+            <br><br>
+            <div class="testimonials__author">
+              John Doe
+              <span>Senior Asset Manager</span>
+            </div>
+            <a href="files/Persona-1.pdf" download>Download Persona</a>
+          </div> <!-- end testimonials__slide -->
+
+          <div class="testimonials__slide">
+            <img src="images/avatars/user-02.png" alt="Author image" class="testimonials__avatar">
+            <p>I have been thinking about using Virtual Reality as a substitute for test-rides for a while now and would like to see how I could use a VR simulation of a self-driving car as a selling point for potential buyers.</p>
+            <div class="testimonials__author">
+              Luka Rakitic
+              <span>Owner of a Luxury Car Dealership</span>
+            </div>
+            <a href="files/Persona-2.pdf" download>Download Persona</a>
+          </div> <!-- end testimonials__slide -->
+
+        </div> <!-- end testimonials__slider -->
+
+      </div> <!-- end testimonials -->
+
+      <div class="row">
+        <div class="col-full testimonials-header">
+          <h2 class="h1">Use-Case Diagram</h2>
+        </div>
+      </div>
+
+      <center><img src="files/Use-Case Diagram.png"></center>
+
+
+    </div> <!-- end testimonials-wrap -->
+
+  </section> <!-- end s-services -->
+
+  <section id='research' class="s-works">
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h3 class="subhead">Research</h3>
+        <h1 class="display-2">These are some of the projects Autónomo is inspired by.</h1>
+        <p class="home-social-title">In IEEE format</p>
+      </div>
+    </div> <!-- end section-header -->
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-earth"></i>&nbsp;&nbsp;Related Projects<br><br>
+        </div>
+        <ul style="padding-left: 4%;">
+          <li>City Car Driving<sup>[1]</sup> - Car driving simulator game on Steam</li>
+          <li>CARLA<sup>[2]</sup> - autonomous driving research</li>
+        </ul>
+
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-lego-block"></i>&nbsp;&nbsp;Comparing the two<br><br>
+        </div>
+        <table>
+          <tr>
+            <th></th>
+            <th>City Car Driving</th>
+            <th>CARLA</th>
+          </tr>
+          <tr>
+            <td>Device</td>
+            <td>Works on both VR headset and PC <sup>[3]</sup></td>
+            <td>Compatible only with PC</td>
+          </tr>
+          <tr>
+            <td>Programming Language </td>
+            <td><a href="https://unity.com/" target="_blank">Unity</a> and <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank">C#</a></td>
+            <td><a href="http://www.cplusplus.org/" target="_blank">C++</a> and <a href="https://www.python.org/" target="_blank">Python</a><sup>[4]</sup></td>
+          </tr>
+          <tr>
+            <td>Game Engine</td>
+            <td>Nebula</td>
+            <td><a href="https://www.unrealengine.com" target="_blank">Unreal 4</a></td>
+          </tr>
+        </table>
+        <br>
+
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-group"></i>&nbsp;&nbsp;Final decision<br><br>
+        </div>
+        <p>
+          We selected City Car Driving to be the final solution since it met almost all of our project requirements; even though City Car Driving is not exactly a self-driving car simulator, it still helped us create our UI design, implement our car
+          design, and choose other Unity assets that are a
+          part of our simulator. For our final deliverable, we decided to use an <a href="https://www.oculus.com/quest/?locale=en_GB" target="_blank">Oculus Quest</a>. The reason why we choose Oculus
+          for development is that Oculus supports both Unity and Unreal. Similarly, Oculus Quest supports precise tracking,
+          excellent hand controls and room-scale play that lets users actually move in a virtual world, and without the restrictive
+          cables tethering that are associated with a PC<sup>[5]</sup>.
+        </p>
+        <br>
+
+      </div>
+    </div> <!-- end about-desc -->
+
+    <div class="row section-header" data-aos="fade-up">
+      <div class="col-full">
+        <h1 class="display-2">These are some of the frameworks Autónomo is built on top of.</h1>
+      </div>
+    </div> <!-- end section-header -->
+    <div class="row" data-aos="fade-up">
+      <div class="col-full">
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-earth"></i>&nbsp;&nbsp;Assets<br><br>
+        </div>
+        <ul style="padding-left: 4%;">
+          <li><a href="https://assetstore.unity.com/packages/3d/vehicles/land/067-sportcar-149095" target="_blank">#067 Sportscar</a> - A customisable sports car made for racing games and simulators</li>
+          <li><a href="https://assetstore.unity.com/packages/3d/vehicles/land/realistic-mobile-car-06-149519" target="_blank">Realistic Mobile Car #06</a> - Another car with very detailed interiors and a Dashboard ready for animation</li>
+          <li><a href="https://assetstore.unity.com/packages/3d/environments/urban/urban-construction-pack-8081" target="_blank">Urban Construction Pack</a> - Made for creating optimized city environments for Unity (especially VR) projects</li>
+          <li><a href="https://assetstore.unity.com/packages/2d/gui/ultimate-sci-fi-ui-bundle-109073" target="_blank">Ultimate Sci-Fi UI Bundle</a> - A UI Bundle with icons, free fonts, and editable components with adjustment layers</li>
+        </ul>
+
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-lego-block"></i>&nbsp;&nbsp;Why we chose these Assets<br><br>
+        </div>
+        <table>
+          <tr>
+            <th>Asset</th>
+            <th>Rationale for use</th>
+          </tr>
+          <tr>
+            <td>#067 Sportscar</td>
+            <td>
+              <ul>
+                <li>Lightweight and easy-to-use with very detailed documentation</li>
+                <li>Customisable interiors - fulfills <a href="#requirements">one of the features</a> of our project</li>
+                <li>Made for simulators and racing games</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Realistic Mobile Car #06</td>
+            <td>
+              <ul>
+                <li>Very detailed interiors</li>
+                <li>Comes with a customisable Dashboard ready for animation - fulfills <a href="#requirements">one of the features</a> of our project</li>
+                <li>Emissive texture for lights included</li>
+                <li>Easy-to-understand documentation</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Urban Construction Pack</td>
+            <td>
+              <ul>
+                <li>Really good looking prefabs and objects</li>
+                <li>Made for creating optimized city environments for VR projects - exactly what our project needed</li>
+                <li>Very modular with resuable components</li>
+                <li>A scripted traffic light system, walls, sidewalks, poles, signs, and stairways - fulfilled most of our requirements for a city environment</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td>Ultimate Sci-Fi UI Bundle</td>
+            <td>
+              <ul>
+                <li>Easily editable components with adjustable layers</li>
+                <li>Design goes well with the overall persona of Autónomo</li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+        <br>
+
+        <div class="service-icon  service-icon--web-design">
+          <i class="icon-cube"></i>&nbsp;&nbsp;References<br><br>
+        </div>
+        <ul>
+          <li><sup>[1]</sup>City Car Driving on Steam,” City Car Driving on Steam. [Online]. Available: <a href="https://store.steampowered.com/sub/112179" target="_blank">https://store.steampowered.com/sub/112179</a>.</li>
+          <li><sup>[2]</sup> CARLA. Open-source simulator for autonomous driving research. Available: <a href="http://carla.org/" target="_blank">http://carla.org/</a>
+          <li>
+            <sup>[3]</sup> System requirements of Car City Map. Available: <a href="https://store.steampowered.com/app/493490/City_Car_Driving/" target="_blank">https://store.steampowered.com/app/493490/City_Car_Driving/</a>
+          </li>
+          <li>
+            <sup>[4]</sup> CARLA Tutorial. Available: <a href="https://carla.readthedocs.io/en/latest/getting_started/" target="_blank">https://carla.readthedocs.io/en/latest/getting_started/</a>
+          </li>
+          <li>
+            <sup>[5]</sup> Adi Robertson, “The Verge”, Oculus Quest review: a great system with a frustrating compromise, [online document],
+            30 Apr, 2019. Available: <a href="https://www.theverge.com/2019/4/30/18523000/oculus-quest-review-vr-headset-price-specs-features"
+              target="_blank">https://www.theverge.com/2019/4/30/18523000/oculus-quest-review-vr-headset-price-specs-features</a>
+          </li>
+        </ul>
+
+      </div>
+    </div> <!-- end about-desc -->
+
+    <section id='algorithms' class="s-works">
+
+      <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+          <h3 class="subhead">Algorithms</h3>
+          <h1 class="display-1">At the heart of Autónomo lies an efficient pathfinding algorithm</h1>
+        </div>
+      </div> <!-- end section-header -->
+      <div class="row" data-aos="fade-up">
+        <div class="col-full">
+          <img src="./images/Navigation.png"><br><br>
+          <p>
+            Autónomo uses a variation of the <a href="" target="_blank">A* Search</a> algorithm to find the shortest path between two points. A fairly flexible and efficient graph traversal algorithm, A* search is the most is the most popular choice
+            for pathfinding in most applications. Its superiority over other popular graph traversal algorithms, like Depth-first search (DFS) and Breadth-first search (BFS), is attributed to a couple of reasons.
+            First, the A* Search algorithm, unlike Depth-First Search, is guaranteed to find the shortest path (if the length of the edges don't vary too much). Secondly, with the help of the heuristic function, A* Search is likely to find
+            the destination faster than Breadth-First Search, which can be very time consuming <strong>(O(|E|) = O(b^d))</strong> in its worst case.
+          </p>
+          <p>
+            The efficiency of choosing an optimal pathfinding algorithm is very important to Autónomo's functionality as it calculates the shortest path in a single frame, which means an inefficient pathfinding algorithm may cause the simulation to
+            lag and, in the worst case, crash. Currently, A* Search works perfectly; with the current size of the city environment, we have not encountered any <strong>Low FPS</strong> or other lag problems during testing.
+          </p>
+        </div>
+
+
+      </div> <!-- end about-desc -->
+
+      <!-- works
+    ================================================== -->
+      <section id='hci' class="s-works">
+
+        <div class="row section-header" data-aos="fade-up">
+          <div class="col-full">
+            <h3 class="subhead">Human Computer Interaction (HCI)</h3>
+            <h1 class="display-1">Autónomo's design is based on the principles of visibility, simplicity, and consistency</h1>
+          </div>
+        </div> <!-- end section-header -->
+
+        <div class="row masonry-wrap">
+          <div class="masonry">
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Sketch1.JPG" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Sketch1.JPG" srcset="images/Sketch1.JPG 1x, images/Sketch1.JPG 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Car Interior Design
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Sketch2.JPG" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Sketch2.JPG" srcset="images/Sketch2.JPG 1x, images/Sketch2.JPG 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Car Selection Page Design
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Car Selection.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Car Selection.png" srcset="images/Car Selection.png 1x, images/Car Selection.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Car Selection Prototype
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Car Simulation.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Car Simulation.png" srcset="images/Car Simulation.png 1x, images/Car Simulation.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Car Interiors (Prototype)
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Navigation.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Navigation.jpg" srcset="images/Navigation.jpg 1x, images/Navigation.jpg 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Navigation Panel Sketch
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/AC Controller.jpg" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/AC Controller.jpg" srcset="images/AC Controller.jpg 1x, images/AC Controller.jpg 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Climate Control System Sketch
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/map-min.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/map-min.png" srcset="images/map-min.png 1x, images/map-min.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Map (Final Release)
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/map-prototype.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/map-prototype.png" srcset="images/map-prototype.png 1x, images/map-prototype.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    City Map Prototype
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/cp.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/cp.png" srcset="images/cp.png 1x, images/cp.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Road Design (Final release)
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/Navigation.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/Navigation.png" srcset="images/Navigation.png 1x, images/Navigation.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Car Interiors (Final Release)
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+            <div class="masonry__brick" data-aos="fade-up">
+              <div class="item-folio">
+
+                <div class="item-folio__thumb">
+                  <a href="images/bd.png" class="thumb-link" title="Lamp" data-size="1050x700">
+                    <img src="images/bd.png" srcset="images/bd.png 1x, images/bd.png 2x" alt="">
+                  </a>
+                </div>
+
+                <div class="item-folio__text">
+                  <h3 class="item-folio__title">
+                    Buildings Design (Final release)
+                  </h3>
+                </div>
+
+                <div class="item-folio__caption">
+                </div>
+
+              </div> <!-- end item-folio -->
+            </div> <!-- end masonry__brick -->
+
+
+          </div> <!-- end masonry -->
+        </div> <!-- end masonry-wrap -->
+
+        <div class="testimonials-wrap" data-aos="fade-up">
+
+          <div class="row">
+            <div class="col-full testimonials-header">
+              <h2 class="h1">System Architecture</h2>
+            </div>
+          </div>
+
+          <center><img src="files/System Architecture Diagram.png"></center>
+
+        </div> <!-- end testimonials-wrap -->
+
+        <section id='testing' class="s-works">
+
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h3 class="subhead">Testing</h3>
+              <h1 class="display-2">Our testing environment(s)</h1>
+            </div>
+          </div> <!-- end section-header -->
+          <div class="row" data-aos="fade-up">
+            <div class="col-full">
+              <p>
+                There are two different testing environments for our software - the Unity Editor and the Oculus Quest headset. Most of our unit and integration tests, however, were carried out on Unity Editor. There are a couple reasons for this
+                decision: first, the process of loading the game onto the Quest headset is very time consuming. Secondly, the headset does not have an in-built Unity debugger, unlike the editor, so when an error occurs, one can not see the error
+                message or any other details about the error, unless we display the message on a game object (like a Canvas).
+              </p>
+              <p>
+                However, there were some tests that could only be carried out on the Quest headset. For example, to test whether the Hand Tracking feature or the Gesture Detection system was working correctly.
+              </p>
+            </div>
+          </div>
+
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h1 class="display-2">Unit tests</h1>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-full">
+              <p>
+                We used the in-built Unity test runner for our Unit tests or simply ran the game and checked for error messages. Unit tests, in the context of our project, refer to the testing of individual Unity prefabs (the Navigation Page prefab),
+                scripts (Navigator script, Traffic Light Control scripts), and methods (Navigator.FindShortestRoute() method - our pathfinding algorithm, for example)
+              </p>
+            </div>
+          </div>
+
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h1 class="display-2">Integration tests</h1>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-full">
+              <p>
+                Integration tests refer to the testing and interaction/connections between game prefabs and some border functionality that requires the scripts to work together. We carried out integration tests by playing the game on Unity Editor as
+                well as on the Oculus Quest headset to check if the system met our requirements. For example, when playing around the car interior UI, we found that when we jumped from the music canvas to the game canvas, the music stops, which was a
+                bug in functionality.
+              </p>
+            </div>
+          </div>
+
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h1 class="display-2">System tests</h1>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-full">
+              <p>
+                System tests took place at the last stage of the development after our game passed all the unit and integration tests. We performed system tests on Oculus Quest only to make sure the overall user experience is delightful.
+              </p>
+            </div>
+          </div>
+
+          <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+              <h1 class="display-2">Performance tests</h1>
+            </div>
+          </div>
+          <div class="row" data-aos="fade-up">
+            <div class="col-full">
+              <p>
+                We performed performance testing on some of our features to check if there were any performance issues that could affect user experience - most of them were on the level of integration tests.
+              </p>
+            </div>
+          </div>
+
+          <section id='evaluation' class="s-works">
+
+            <div class="row section-header" data-aos="fade-up">
+              <div class="col-full">
+                <h3 class="subhead">Evaluation</h3>
+                <h1 class="display-2">Achievments</h1>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-full">
+                <table>
+                  <tr>
+                    <th>ID</th>
+                    <th>Requirements</th>
+                    <th>Priority</th>
+                    <th>State</th>
+                    <th>Contributors</th>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>A User-friendly interface that allows the user to choose a car</td>
+                    <td>Must</td>
+                    <td id="tick">✔</td>
+                    <td>Yifan</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>A custom, indoor-like VR environment to view amd select the car</td>
+                    <td>Must</td>
+                    <td id="tick">✔</td>
+                    <td>Yifan</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>User must be able to view information about a car - it’s specifications, description, and performance figures</td>
+                    <td>Must</td>
+                    <td id="tick">✔</td>
+                    <td>Yifan</td>
+                  </tr>
+                  <tr>
+                    <td>4</td>
+                    <td>A feature-complete simulation of riding in a self-driving car - users must be able to at least see the car moving autonomously from a start point to a destination along a specific track</td>
+                    <td>Must</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>5</td>
+                    <td>The car must have basic elements of a car’s interiors; must have a driver's seat, a front-passenger seat, and a Dashboard/instrument panel with at least a speedometer</td>
+                    <td>Must</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>6</td>
+                    <td>Users should be able to interact with the Dashboard/instrument panel (using Hand Tracking) and receive visual feedback</td>
+                    <td>Should</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>7</td>
+                    <td>Users should be able to look around (must be free to rotate and change the view) just like looking around in a real-life setting</td>
+                    <td>Should</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>8</td>
+                    <td>The applications should have a feature-complete environment for the simulation similar to that of a city - with buildings, roads, highways, roundabouts, bridges etc.</td>
+                    <td>Should</td>
+                    <td id="tick">✔</td>
+                    <td>Abir</td>
+                  </tr>
+                  <tr>
+                    <td>9</td>
+                    <td>An interface for customising the car's interiors</td>
+                    <td>Could</td>
+                    <td id="cross">✖</td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>10</td>
+                    <td>A simple user-interface for customising the car's exteriors with customising options like choosing the colour of the car and adding stickers/decals</td>
+                    <td>Could</td>
+                    <td id="tick">✔</td>
+                    <td>Yifan</td>
+                  </tr>
+                  <tr>
+                    <td>11</td>
+                    <td>A navigation system for the car - a virtual map with real-time updates of the car’s position</td>
+                    <td>Could</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>12</td>
+                    <td>Options for customising the route that the car will take - could have a pathfinding algorithm that navigates the car from a starting point to a destination</td>
+                    <td>Could</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td>13</td>
+                    <td>An entertainment system for the car - with a simple game, a music system, and climate control options - that is controlled using touch and gestures</td>
+                    <td>Could</td>
+                    <td id="tick">✔</td>
+                    <td>Xuyou</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="font-weight: 1000">Key functionality (Must have and Should have)
+                    <td>
+                    <td colspan="3" style="text-align: right">100% completed</td>
+                  </tr>
+                  <tr>
+                    <td colspan="2" style="font-weight: 1000">Optional functionality (Could have)</td>
+                    <td colspan="3" style="text-align: right">80% completed</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="row section-header" data-aos="fade-up">
+              <div class="col-full">
+                <h1 class="display-2">Individual Contribution</h1>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-full">
+                <table>
+                  <tr>
+                    <th>Work packages</th>
+                    <th><a href="mailto:xuyou.cheng.18@ucl.ac.uk" style="color: black">Xuyou</a></th>
+                    <th><a href="mailto:bhushan.abir@gmail.com" style="color: black">Abir</a></th>
+                    <th><a href="mailto:yifan-zhang.18@ucl.ac.uk" style="color: black">Yifan</a></th>
+                  </tr>
+                  <tr>
+                    <td>Project Partners Liaison</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                  </tr>
+                  <tr>
+                    <td>Requirement Analysis</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                  </tr>
+                  <tr>
+                    <td>Research and Experiments</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                  </tr>
+                  <tr>
+                    <td>UI Design</td>
+                    <td>50%</td>
+                    <td>0%</td>
+                    <td>50%</td>
+                  </tr>
+                  <tr>
+                    <td>Programming</td>
+                    <td>60%</td>
+                    <td>10%</td>
+                    <td>30%</td>
+                  </tr>
+                  <tr>
+                    <td>Testing</td>
+                    <td>100%</td>
+                    <td>0%</td>
+                    <td>0%</td>
+                  </tr>
+                  <tr>
+                    <td>Bi-weekly Reports</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                  </tr>
+                  <tr>
+                    <td>Report Website</td>
+                    <td>0%</td>
+                    <td>80%</td>
+                    <td>20%</td>
+                  </tr>
+                  <tr>
+                    <td>Poster Design</td>
+                    <td>0%</td>
+                    <td>20%</td>
+                    <td>80%</td>
+                  </tr>
+                  <tr>
+                    <td>Video Editing</td>
+                    <td>50%</td>
+                    <td>25%</td>
+                    <td>25%</td>
+                  </tr>
+                  <tr>
+                    <td>Overall Contribution</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                    <td>33%</td>
+                  </tr>
+                  <tr>
+                    <td>Main Roles</td>
+                    <td>Front-end and Back-end Developer, UI Designer</td>
+                    <td>Front-End Developer, Documentation Writer, Researcher, Elevator Pitch</td>
+                    <td>UI Designer, Front-end and Back-end Developer, Researcher</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+
+            <div class="row section-header" data-aos="fade-up">
+              <div class="col-full">
+                <h1 class="display-2">Critical Evaluation</h1>
+              </div>
+            </div>
+            <div class="row" data-aos="fade-up">
+              <div class="col-full">
+                <h3 class="display-2">User interface and user experience</h3>
+                <p>
+                  UI elements in our VR environment include a hologram for the user to choose a car, buttons to customise the car, as well as gesture detection for users to control the entertainment system, the navigation system and the climate
+                  inside
+                  the car. These UIs are generally understandable to users, as most of them are designed to be the same as those phone apps used by people regularly (music player, maps, etc.). Moreover, users are allowed to interact with all the UIs
+                  in
+                  the VR scene by touch and gestures instead of controllers, which will is easier for those who have never used VR devices before. However, there are also some drawbacks to using Hand tracking. Feedback from tester has showed that it
+                  will be hard to justify the actual distance between users and the UI elements, while using hand tracking functionality, also, they reported that the position of hands in the VR scene does not fully coincident with their actual hands
+                  position in the reality, this results in some buttons in the scene not actually being pressed when the user has actually pressed it. However, Oculus Hand Tracking is still a beta feature and this aspect of the project will improve
+                  with time.
+                </p>
+              </div>
+              <div class="col-full">
+                <h3 class="display-2">Functionality</h3>
+                <p>
+                  100% of the key functionality stated in our MoSCoW list is completed and fully functioning. The two main functionalities that are functioning, but unstable, are Gesture detection and the navigation system. Regarding the gesture
+                  detection, the problems are the same as mentioned above. The navigation system works fine in most of the cases, however it can be buggy sometime. Bugs are mostly related to the route displayed on the mini map on the navigation panel
+                  -
+                  sometimes it does not display correctly and in the worst case, the user may arrive at the wrong destination. However, we have never come across this scenario in testing or production.
+                </p>
+              </div>
+              <div class="col-full">
+                <h3 class="display-2">Stability</h3>
+                <p>
+                  The VR environment is generally stable due to the fact that it is a standalone game and the actions the user can perform are quite restricted. However, the navigation system is a bit unstable - the pathfinding algorithm may cause
+                  the
+                  game to be stuck for a few frames. Again, we have never come across this scenario in testing or production.
+                </p>
+              </div>
+              <div class="col-full">
+                <h3 class="display-2">Efficiency</h3>
+                <p>
+                  The VR environment is very efficient because it is constructed using the sample framework provided by Oculus, which works very well on the Quest headset. The elements in the project that affect efficiency the most would be the city
+                  environment, which needs to be rendered by Unity engine frame-by-frame and greatly affects the game FPS. Notes on the efficiency of the pathfinding algorithm can be found here.
+                </p>
+              </div>
+              <div class="col-full">
+                <h3 class="display-2">Compatibility</h3>
+                <p>
+                  The VR environment is completely compatible with our target device - the Oculus Quest headset.
+                </p>
+              </div>
+              <div class="col-full">
+                <h3 class="display-2">Maintainability</h3>
+                <p>
+                  The product is relatively easy to maintain as it does not use any additional cloud services or resources that need to be constantly managed. The only part of the project that might need to be regularly updated would be scripts that
+                  use Oculus APU as it is recommended to update them when a new stable version of Oculus API comes out.
+                </p>
+              </div>
+            </div>
+
+
+
+            <!-- stats
+    ================================================== -->
+            <section id="stats" class="s-stats">
+
+              <div class="row" data-aos="fade-up">
+                <center>
+                  <div class="col-full">
+                    <div class="stats__count">8192</div>and counting ...
+                    <h4 class="display-2" style="color: white">Miles Simulated</h4>
+                  </div>
+                </center>
+
+              </div> <!-- end stats -->
+            </section> <!-- end s-stats -->
+
+
+            <!-- contact
+    ================================================== -->
+            <section id="appendix" class="s-contact">
+
+              <div class="row section-header" data-aos="fade-up">
+                <div class="col-full">
+                  <h3 class="subhead subhead--light">Appendix</h3>
+                  <p class="display-2" style="color: white"><a href="files/Deployment Manual.pdf" download>Deployment Manual</a></p>
+                  <p class="display-2" style="color: white"><a href="files/Bi-weekly reports.zip" download>Bi-weekly Reports</a></p>
+                </div>
+              </div> <!-- end section-header -->
+
+              <div class="row">
+
+                <div class="col-five tab-full contact-secondary" data-aos="fade-up">
+                  <h3 class="subhead subhead--light">Where To Find Us</h3>
+
+                  <p class="contact-address">
+                    Computer Science Department <br>
+                    University College London <br>
+                    Gower St <br>
+                    Bloomsbury<br>
+                    London WC1E 6BT
+                  </p>
+                </div> <!-- end contact-secondary -->
+
+              </div> <!-- end row -->
+
+              <div class="cl-go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+              </div>
+
+
+              <!-- photoswipe background
+    ================================================== -->
+              <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+                <div class="pswp__bg"></div>
+                <div class="pswp__scroll-wrap">
+
+                  <div class="pswp__container">
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                    <div class="pswp__item"></div>
+                  </div>
+
+                  <div class="pswp__ui pswp__ui--hidden">
+                    <div class="pswp__top-bar">
+                      <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title="Share"></button> <button
+                        class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                      <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                          <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                      <div class="pswp__share-tooltip"></div>
+                    </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                    <div class="pswp__caption">
+                      <div class="pswp__caption__center"></div>
+                    </div>
+                  </div>
+
+                </div>
+
+              </div> <!-- end photoSwipe background -->
+
+
+              <!-- preloader
+    ================================================== -->
+              <div id="preloader">
+                <div id="loader">
+                </div>
+              </div>
+
+
+              <!-- Java Script
+    ================================================== -->
+              <script src="js/jquery-3.2.1.min.js"></script>
+              <script src="js/plugins.js"></script>
+              <script src="js/main.js"></script>
+
+</body>
+
+</html>
